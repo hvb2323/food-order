@@ -1,0 +1,24 @@
+#include<stdio.h>
+int main()
+{
+	int a;
+	printf("enter value of a",a);
+	scanf("%d",&a);
+	switch(a){
+		case 1:printf("pizza\n");
+		printf("Rs 239");
+		break;
+		case 2:printf("burger\n");
+		printf("Rs 179");
+		break;
+		case 3:printf("pasta\n");
+		printf("Rs 179");
+		break;
+		case 4:printf("french fries\n");
+		printf("Rs 99");
+		break;
+		case 5:printf("sandwich\n");
+		printf("Rs 149");
+	}
+	return 0;
+}
